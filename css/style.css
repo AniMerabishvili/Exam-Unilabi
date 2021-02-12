@@ -3,13 +3,15 @@
 .bg-image {
 	background-image: url(../img/bg-image.png);
 	height: 324px;
+	background-size: cover;
 }
 .header-div {
-	max-width: 1000px;
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
+	align-items: center;
+	margin-left: 139px;
+	max-width: 1075px;
+	width: 100%;
 }
 .nav-ul {
 	display: flex;
@@ -18,6 +20,12 @@ nav,
 .logo {
 	margin-top: 32px;
 } 
+.fa-bars {
+	color: white;
+	font-size: 30px;
+	margin-top: 30px;
+	display: none;
+}
 a {
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif; 
@@ -33,11 +41,10 @@ li {
 	color: #FFFFFF;
 	font-size: 42px;
 	font-family: 'Poppins ExtraBold', sans-serif;
-}
-.About {
 	margin-top: 96px;
-	margin-left: 170px;
+	margin-left: 139px;
 }
+
 header {
 	margin-bottom: 90px;
 }
@@ -108,8 +115,9 @@ button {
 
 /*section2*/
 .bg-img {
-	background-image: url(../img/bg-image2.png);
+	background-image: url(../img/leave-bg-image.png);
 	margin-top: 90px;
+	background-size: cover;
 }
 .container {
 	padding-top: 92px;
