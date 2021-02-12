@@ -30,6 +30,7 @@ a {
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif; 
 	font-size: 12px;
+	text-transform: uppercase;
 }
 .active {
 	color: #5863F8;
